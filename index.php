@@ -67,6 +67,7 @@
 			break;
 	}*/
 
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	$tmp_name = $_FILES['upImg']['tmp_name'];
 	$path = getcwd() . DIRECTORY_SEPARATOR . 'images';
 	$name = $path . DIRECTORY_SEPARATOR . $_FILES['upImg']['name'];
@@ -74,6 +75,7 @@
 	if (!$ret) {
 		echo "upload error" ;
 	}
+}
 ?>
 
 <form class="form-horizontal" method="POST">
