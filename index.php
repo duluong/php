@@ -78,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<form class="form-horizontal" method="POST">
+<form class="form-horizontal" method="POST" action="index.php" enctype="multipart/form-data">
 	  <div class="form-group">
 	    <label class="control-label col-sm-2" for="upImg">Select img for upload:</label>
 	    <div class="col-sm-5">
