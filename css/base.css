@@ -1,0 +1,91 @@
+#innerwrap {
+/*	background-image: url(https://www.gstatic.com/webp/gallery3/1.png);*/
+	background-repeat: repeat-x;
+	height: 50em;
+}
+
+#innerwrap:after {
+	content: ". ABC $%&";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+#mainnav {
+	background-color: #60668B;
+	height: 35px
+}
+
+#innerwrap:hover {
+	background-color: yellow;
+}
+
+#mainnav li {
+	float: left;
+	width: 120px;
+	height: 35px;
+	background-color: #7D834A;
+	text-align: center;
+	border-right: thin solid gray;
+	border-left: thin solid gray;
+	line-height: 35px;
+}
+
+#mainnav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+#mainnav ul li a:link {
+	background-color: #7D834A;
+	color: #F8F068;
+}
+
+#mainnav ul li a:hover {
+	background-color: #29336B;
+	color: #F8F068;
+}
+
+#mainnav ul li a:visited {
+	background-color: #7D834A;
+	color: purple;
+}
+
+#mainnav ul li a:hover {
+	background-color: #29336B;
+	color: cyan;
+}
+p{
+	margin-top: 1em;
+}
+
+nav{
+	background-color: #60668B;
+	height: 35px;
+	background-image: url(images/bg_nav.jpg);
+	background-repeat: repeat-x; 
+}
+
+nav li{
+	float: left;
+	width: 120px;
+	height: 35px;
+	background-color: #7D83A4;
+	text-align: center;
+	border-left: thin black solid;
+	border-right: thin black solid;
+	line-height: 35px;
+}
+
+nav ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+}
+
+nav ul li a:hover {
+	background-color: #29336B;
+	color: #F8F068;
+}
